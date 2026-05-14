@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "write-the-code-for-a-minecraft-mod-that--mp4yfuy3",
+  "version": "${version}",
+  "name": "Secret Menu XRAY Toggle",
+  "description": "Client-side Secret Menu opened with '*' key. Includes an XRAY button that toggles an X-ray-like mode by hiding non-ore blocks via client chunk render filtering and restores normal rendering when disabled.",
+  "authors": [
+    "Elio"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/write-the-code-for-a-minecraft-mod-that--mp4yfuy3/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.modforge.writethecodeforaminecraftmodthat.WriteTheCodeForAMinecraftModThatMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
